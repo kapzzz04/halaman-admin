@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.start-div {
+  flex-direction: row;
+}
+
+.start-div .sidebar {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.start-div .sidebar {
+  width: 300px;
+  height: 100vh;
+  position: sticky;
+  /* z-index: 1; */
+}
+
+.start-div .sidebar .item-judul {
+  font-size: 24px;
+  display: flex;
+  margin: 26px 16px;
+  justify-content: space-between;
+}
+
+.start-div .sidebar .item-judul span {
+  padding: 1px 3px;
+  cursor: pointer;
+}
+
+.start-div .sidebar .item-menu ul {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+}
+
+.start-div .sidebar .item-menu ul li {
+  list-style: none;
+  padding: 10px 5px;
+  width: 170px;
+  cursor: pointer;
+}
+
+.start-div .sidebar .item-menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  display: flex;
+  gap: 16px;
+}
+
+.start-div .sidebar .item-menu ul li a i {
+  align-self: center;
+  font-size: 20px;
+}
+
+.start-div .sidebar .item-ex-mode .dark-mode {
+  width: 188px;
+  margin-left: 30px;
+  padding: 10px 5px;
+  display: flex;
+  gap: 16px;
+}
+
+.start-div .sidebar .item-ex-mode .dark-mode i {
+  align-self: center;
+  font-size: 20px;
+}
+
+.start-div .sidebar .item-ex-mode .exit {
+  position: absolute;
+  bottom: 0;
+  background-color: #f1f1f1;
+
+  width: 100%;
+  padding: 7px 0px 15px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.start-div .sidebar .item-ex-mode .exit .profil-circle {
+  width: 51px;
+  height: 49px;
+  background-color: #f2c7ba;
+  border-radius: 100%;
+  overflow: auto;
+  display: flex;
+}
+
+.start-div .sidebar .item-ex-mode .exit .profil-circle img {
+  width: 60%;
+  display: flex;
+  margin: auto;
+}
+
+.start-div .sidebar .item-ex-mode .exit .sekat {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.start-div .sidebar .item-ex-mode .exit .icon-exit {
+  align-items: center;
+  font-size: 25px;
+  display: flex;
+  color: black;
+  text-decoration: none;
+}
+
+.start-div .child-div-one {
+  position: relative;
+  width: 100%;
+}
+
+/* Responsive */
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 580px) {
+}
+
+@media (max-width: 500px) {
+}
+
+@media (max-width: 360px) {
+}
